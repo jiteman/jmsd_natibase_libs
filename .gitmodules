@@ -1,0 +1,3 @@
+[submodule "jmsd_nb_components_lib"]
+	path = jmsd_nb_components_lib
+	url = https://github.com/jiteman/jmsd_nb_components_lib.git
