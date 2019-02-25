@@ -3,10 +3,10 @@ cmake_minimum_required( VERSION 3.7.1 )
 project( jmsd_natibase_libs )
 
 
-include( ${JMSD_CMAKE_SETTINGS_PATH}/verbosity/project-group-header.cmake )
+JMSD_SHOW_PROJECT_GROUP_HEADER()
 
 
 add_subdirectory( jmsd_nb_components_lib )
 
 
-include( ${JMSD_CMAKE_SETTINGS_PATH}/verbosity/project-group-footer.cmake )
+JMSD_SHOW_PROJECT_GROUP_FOOTER()
